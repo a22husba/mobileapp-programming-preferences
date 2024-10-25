@@ -75,8 +75,9 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-Bilder läggs i samma mapp som markdown-filen.
+
 
 ![](Screenshot_20241025_105705.png)
 ![](Screenshot_20241025_105743.png)
 ![](Screenshot_20241025_105758.png)
+![![Screenshot_20241025_105705.png](Screenshot_20241025_105705.png)]()
