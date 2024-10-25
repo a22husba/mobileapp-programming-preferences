@@ -1,5 +1,6 @@
 package com.example.project;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView sharedresult;
     private Button button;
-    private final String key = String.valueOf("viewData");
+    private final String key = String.valueOf(R.string.app_name);
     private SharedPreferences myPreferenceREf;
     private SharedPreferences.Editor myPreferenceEditor;
 
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openSecondActivity;
+                openSecondActivity();
             }
         });
     }
@@ -48,6 +49,10 @@ public class MainActivity extends AppCompatActivity {
         sharedresult.setText(sharedPref.getString(key, defaultValue));
     }
 
+    public void openSecondActivity() {
+        Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+        startActivity(intent);
+    }
 
 
 }
