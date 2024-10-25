@@ -74,10 +74,4 @@ public class MainActivity extends AppCompatActivity {
 
 
 ```
-
-
-
-![](Screenshot_20241025_105705.png)
-![](Screenshot_20241025_105743.png)
-![](Screenshot_20241025_105758.png)
-![![Screenshot_20241025_105705.png](Screenshot_20241025_105705.png)]()
+![img.png](img.png)
